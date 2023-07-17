@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	int digit = 0;
+	int digit = 48;
 
 	while (digit <= 102)
 	{
