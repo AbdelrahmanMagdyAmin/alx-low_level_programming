@@ -15,4 +15,4 @@ int add(int x, int y)
 
 	r = x + y;
 	return (r);
-}	
+}
