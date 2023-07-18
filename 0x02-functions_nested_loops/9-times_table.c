@@ -13,6 +13,8 @@ void times_table(void)
 		{
 			r = n * i;
 			_putchar(r + 48);
+			_putchar(',');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
