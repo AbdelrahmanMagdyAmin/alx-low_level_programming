@@ -16,9 +16,10 @@ void puts2(char *str)
 	{
 		i++;
 	}
-	while (j <= i)
+	while (j < i)
 	{
 		printf("%c", str[j]);
 		j += 2;
 	}
+	putchar ('\n');
 }
