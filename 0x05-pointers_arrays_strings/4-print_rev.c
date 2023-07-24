@@ -23,5 +23,5 @@ void print_rev(char *s)
 		printf("%c", s[len]);
 		len--;
 	}
-	putchar('\n');
+	//putchar('\n');
 }
