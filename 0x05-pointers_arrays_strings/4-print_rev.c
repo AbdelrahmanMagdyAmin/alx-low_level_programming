@@ -18,9 +18,10 @@ void print_rev(char *s)
 		i++;
 	}
 
-	while (len >= 0)
+	while (len > 0)
 	{
 		printf("%c", s[len]);
 		len--;
 	}
+	putchar('\n');
 }
